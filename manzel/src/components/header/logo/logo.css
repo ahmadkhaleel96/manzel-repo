@@ -1,0 +1,14 @@
+.slogan {
+    font-size: 3px;
+    font-weight: 100;
+}
+.name {
+    position: relative;
+    right: 50px;
+    top: 18px;
+}
+
+.logo {
+    position: relative;
+    top: -10px
+}

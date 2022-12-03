@@ -1,0 +1,178 @@
+ .why-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.reason-contianer {
+    margin-top: 1%;
+    width: 50%;
+    height: 10%;
+    text-align: left;
+    position: relative;
+    left: 5%;
+    top:5%;
+    box-sizing: content-box;
+    background-color: azure;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+    0 2px 2px rgba(0,0,0,0.12), 
+    0 4px 4px rgba(0,0,0,0.12), 
+    0 8px 8px rgba(0,0,0,0.12),
+    0 16px 16px rgba(0,0,0,0.12);
+}
+
+.reason-contianer:hover {
+    background-color: #e7eeed;
+}
+
+.why {
+    text-align: center;
+    font-size: 75px;
+    margin-top: 5%;
+}
+
+.why-image {
+    position: relative;
+    left: 57%;
+    top: -70%;
+    width: 95%;
+    height: 77%;
+}
+
+.reason {
+    position: relative;
+    top: 10%;
+    left: 3%;
+    margin-bottom: 2%;
+}
+
+
+.Explaination {
+    position: relative;
+    left: 5%;
+    top: 10%;
+}
+
+@media  screen and (max-width: 992px) {
+    .why-container {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    
+    .reason-contianer {
+        margin-top: 1%;
+        margin-bottom: 2%;
+        width: 40%;
+        height: 10%;
+        text-align: left;
+        position: relative;
+        left: 3%;
+        top:12%;
+        /* box-sizing: content-box; */
+        background-color: azure;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+        0 2px 2px rgba(0,0,0,0.12), 
+        0 4px 4px rgba(0,0,0,0.12), 
+        0 8px 8px rgba(0,0,0,0.12),
+        0 16px 16px rgba(0,0,0,0.12);
+        border-radius: 5px;
+    }
+    
+    .reason-contianer:hover {
+        background-color: #e7eeed;
+    }
+    
+    .why {
+        text-align: center;
+        font-size: 40px;
+        margin-top: 5%;
+    }
+    
+    .why-image {
+        position: relative;
+        left: 47%;
+        top: -65%;
+        width: 93%;
+        height: 80%;
+    }
+    
+    .reason {
+        position: relative;
+        top: 10%;
+        left: 1%;
+        margin-bottom: 2%;
+        font-size: 13px;
+    }
+    
+    
+    .Explaination {
+        position: relative;
+        left: 3%;
+        top: 10%;
+        font-size: 11px;
+        width: 90%;
+    }
+}
+
+
+@media  screen and (max-width: 768px) {
+    .why-container {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    
+    .reason-contianer {
+        margin-top: 1%;
+        margin-bottom: 2%;
+        width: 40%;
+        height: 10%;
+        text-align: left;
+        position: relative;
+        left: 3%;
+        top:10%;
+        /* box-sizing: content-box; */
+        background-color: azure;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+        0 2px 2px rgba(0,0,0,0.12), 
+        0 4px 4px rgba(0,0,0,0.12), 
+        0 8px 8px rgba(0,0,0,0.12),
+        0 16px 16px rgba(0,0,0,0.12);
+        border-radius: 5px;
+    }
+    
+    .reason-contianer:hover {
+        background-color: #e7eeed;
+    }
+    
+    .why {
+        text-align: center;
+        font-size: 40px;
+        margin-top: 5%;
+    }
+    
+    .why-image {
+        position: relative;
+        left: 47%;
+        top: -65%;
+        width: 93%;
+        height: 80%;
+    }
+    
+    .reason {
+        position: relative;
+        top: 10%;
+        left: 1%;
+        margin-bottom: 2%;
+        font-size: 13px;
+    }
+    
+    
+    .Explaination {
+        position: relative;
+        left: 3%;
+        top: 10%;
+        font-size: 11px;
+    }
+}
