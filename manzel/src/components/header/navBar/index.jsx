@@ -1,8 +1,8 @@
-import React ,{useState, useEffect } from "react";
+import React ,{useState} from "react";
 import { useMediaQuery } from "react-responsive";
 import styled from "styled-components";
 import { Logo } from "../logo/index.jsx";
-import { Accessibility } from "./accessibility";
+// import { Accessibility } from "./accessibility";
 import { NavLinks } from "./navLinks";
 import { DeviceSize } from "../responsive";
 import { MobileNavLinks } from "./mobileNavLinks";
